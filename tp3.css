@@ -1,0 +1,48 @@
+.title{
+   color:  #00131c ;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+body{
+    background-image: url(photo1.jpg);
+    background-size: cover;
+
+}
+div{
+    border: 1px;
+    float:right;
+    margin-right:20% ;
+    margin-top: 20px;
+}
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: steelblue;
+    font-size: 25px;
+    font-family: serif;
+}
+.clear{
+    width: 160px;
+    background-color: #0a4b78;
+}
+input{
+   height:40px ;
+   width: 335px;
+   background-color: #00131c;
+   border: 4px solid black;
+   color: #ffff;
+   font-size: 30px;
+}
+button:focus{
+    background-color: rgba(255, 255, 255, 0.492);
+}
+.op{
+    background-color:#c5d9ed ;
+}
+.eq{
+    width: 350px;
+    background-color: #0a4b78;
+} 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="tp3.css">
+    <link rel="icon" href="../../Pictures/fa2 logo (2).jpg">
+</head>
+<body>
+    <marquee direction="right" class="title">calculator fatima zahrae el ghiouan </marquee>
+    <div>
+        <table>
+            <tr>
+                <input type="text" readonly id="res" >
+                
+            </tr>
+            <tr>
+                <td><button value="9" id="n9" onclick="get('9')">9</button></td>
+                <td colspan="2"><button class="clear" onclick="sup()">c</button></td>
+                <td><button class="op" onclick="get('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button value="6" onclick="get('6')">6</button></td>
+                <td><button value="7" onclick="get('7')">7</button></td>
+                <td><button value="8"onclick="get('8')">8</button></td>
+                <td><button class="op" onclick="get('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button value="3" onclick="get('3')">3</button></td>
+                <td><button value="4" onclick="get('4')">4</button></td>
+                <td><button value="5" onclick="get('5')">5</button></td>
+                <td><button class="op"  onclick="get('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button value="0" onclick="get('0')">0</button></td>
+                <td><button value="1" onclick="get('1')">1</button></td>
+                <td><button value="2" onclick="get('2')">2</button></td>
+                <td><button  class="op" onclick="get('/')">/</button></td>
+            </tr>
+            <tr>
+                <td colspan="4"><button class="eq" onclick=" result()">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="tp3.js"></script>
+</body>
+</html>
